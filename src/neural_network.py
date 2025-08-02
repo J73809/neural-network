@@ -1,5 +1,5 @@
 import numpy as np
-from activations import relu, relu_derivative, softmax
+from src.activations import relu, relu_derivative, softmax
 
 class NeuralNetwork():
     def __init__(self, layer_sizes):

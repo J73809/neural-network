@@ -1,7 +1,6 @@
-from src.neural_network import NeuralNetwork
-from src.loss import cross_entropy
-from data.dummy_data import generate_data
-from src.activations import accuracy
+from scripts import NeuralNetwork
+from scripts import accuracy, cross_entropy
+from scripts import generate_data
 
 network = NeuralNetwork([7, 10, 10, 10, 10, 5])
 
