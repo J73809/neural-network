@@ -24,7 +24,7 @@ pip3 install numpy
 To train the network using the example dummy data, run the training script.
 
 ```
-python scripts/main.py
+python3 scripts/main.py
 ```
 
 ---
